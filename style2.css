@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Explora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    /* background-image: url(img/fundotela.jpeg);
+    background-repeat: no-repeat;
+    */
+    background-color: rgb(142, 105, 86);
+
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    background-color: rgba(129, 66, 86, 0.7);
+    font-size: x-large;
+
+   }
+
+   #menu{
+    width: 100%;
+    float: left;
+    position: fixed;
+    top: 0;
+   }
+
+   
+#menu ul{
+    list-style-type: none;   
+    text-align: center;
+   }
+   
+   #menu li {
+       margin: 10px 35px;
+       display: inline-block;
+   }
+   #menu a{
+       color: white;
+       text-decoration: none;
+       display: inline-block;
+   }
+   
+   #menu a:hover{
+       background-color: #533d4a;
+       color: white;
+   }
+
+   /* INICIO DAS TABELAS */
+.tabelas{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+/* .esquerda{
+    /* margin-right: -100px;
+    width: 100px;
+    height: 145px;
+    display: flex;
+    flex-direction:column ;
+    border: 2px solid;
+    border-color: rgba(255, 0, 85, 0.329);
+    box-shadow: 2px 3px 2px 2px #fbb03b73; 
+}
+
+
+ .ft img{
+
+    width: 100px;
+    height: 145px;
+    } */
+    
+    .centro{
+        width: 40%;
+        height: 400px;
+        /* border: 2px solid;
+        border-color: rgba(255, 0, 85, 0.329); 
+        box-shadow: 6px 7px 9px 5px #fbb03b73; */
+    }
+    
+    /* .centro img{
+        width: 400px;
+        height: 600px;
+    } */
+    
+    .centro h1{
+        padding: 80px 0 0 0;
+        color: #ffff;
+        /* color: rgb(129, 81, 112); */
+        font-size: 80px;
+        font-weight: normal;
+        font-family:'Italianno', cursive;
+        margin: auto;
+        
+    }
+
+    .centro h2{
+        padding: -20px 0 0 0;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffff;
+        /* color: rgb(129, 81, 112); */
+        
+    }
+
+    .centro h3{
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        color: #ffff;
+        text-align: center;
+        
+    }
+    .centro h4{
+        color: #ffff;
+        text-align: center;
+        border: 2px solid #fbb03b;
+        box-shadow: 6px 7px 9px 5px #fbb03b73;
+        margin-top: 0px;
+    }
+    .dir{
+        width: 55%;
+        height: 390px;
+        /* border: 2px solid;
+        border-color: rgb(121, 62, 160);
+        border-radius: 30px; */
+        margin-bottom: 150px;
+    }
+
+    .dir img{
+        margin-top: -82px;
+        position: relative;
+        width: 100%;
+        height: 125%;
+        z-index: -1;
+    }   
+    
+    
+#bttn{
+        margin-top: 20px;
+        margin-left: 125px;
+        width: 250px;
+        height: 60px;
+        font-weight: bold;
+        background-color: darkviolet;
+        border-radius: 10px;
+        color:white;
+        opacity: 0.7; 
+        cursor: pointer;
+    }
+
+    /* QUEM SOMOS */
+    .tabelas2{
+        /* margin-top: 10px; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .centro2{
+        width: 40%;
+        height: 500px;
+        /* border: 2px solid;
+        border-color: rgba(255, 0, 85, 0.329); 
+        box-shadow: 6px 7px 9px 5px #fbb03b73; */
+    }
+    
+    
+    .centro2 h1{
+        padding: 0px 0 0 0;
+        color: #ffff;
+        /* color: rgb(129, 81, 112); */
+        font-size: 80px;
+        font-weight: normal;
+        font-family:'Italianno', cursive;
+        margin: auto;
+        
+    }
+
+    .centro2 h2{
+        padding: 0px 0 0 0;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffff;
+        /* color: rgb(129, 81, 112); */
+        
+    }
+
+    .centro2 h3{
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        color: #ffff;
+        text-align: center;
+        
+    }
+    .dir2{
+        width: 50%;
+        height: 390px;
+        /* border: 2px solid;
+        border-color: rgb(121, 62, 160); */
+        border-radius: 30px;
+        margin-bottom: 250px;
+    }
+
+    .dir2 video{
+        
+        width: 500px;
+        height: 500px;
+    }     
+    
+/* #bttn{
+        margin-top: 20px;
+        margin-left: 125px;
+        width: 250px;
+        height: 30px;
+        font-weight: bold;
+        background-color: darkviolet;
+        border-radius: 10px;
+        color:white;
+        opacity: 0.7; 
+        cursor: pointer;
+    } */
+
+    /* CONTATO */
+    .tabelas3{
+        /* margin-top: 10px; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        text-decoration: none;
+    }
+
+    .centro3{
+        width: 70%;
+        height: 500px;
+        margin-right: 250px;
+        /* border: 2px solid;
+        border-color: rgba(255, 0, 85, 0.329); 
+        box-shadow: 6px 7px 9px 5px #fbb03b73; */
+    }
+    
+    
+    .centro3 h1{
+        padding: 0px 0 0 0;
+        color: #ffff;
+        /* color: rgb(129, 81, 112); */
+        font-size: 80px;
+        font-weight: normal;
+        font-family:'Italianno', cursive;
+        
+        
+        
+    }
+
+    .centro3 h2{
+        padding: 0px 0 0 0;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffff;
+        /* color: rgb(129, 81, 112); */
+        
+    }
+
+    .centro3 h3{
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        color: #ffff;
+        text-align: center;
+        
+    }
+    /* AQUI VAI FICAR O WEB_TO_LEAD */
+    .dir3{
+        width: 50%;
+        height: 390px;
+        border-color: rgb(121, 62, 160);
+        border-radius: 30px;
+        margin-top: -400px;
+    }
+
+    .centro3 a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .redesocial{
+        margin-top: -250px;
+        display: flex;
+        font-size: normal;
+        margin-left: -50px;
+    }
+
+    .redesocial img{
+        margin-right: -50px;
+    }
+
+    /* .dir2 video{
+        
+        width: 600px;
+        height: 400px;
+    } */
